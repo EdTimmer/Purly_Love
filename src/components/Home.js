@@ -37,7 +37,7 @@ class Home extends Component {
 
         <div style={{ position: 'relative' }}>
           <div style={{ color: '#ddd', backgroundColor: '#282E34', textAlign: 'center', padding: '50px 80px' }}>
-            <p>I give live classes at <a href="https://www.bookmarkshoppe.com/" rel="noopener noreferrer" target="_blank" style={{ color: 'white' }}>Bookmark Shoppe</a> located at 8415 3rd Ave, Brooklyn, NY 11209.  Class times are TIMES.  To sign up, please call PHONE NUMBER.</p>
+            <p>I give live classes at <a href="https://www.bookmarkshoppe.com/" rel="noopener noreferrer" target="_blank" style={{ color: 'white' }}>Bookmark Shoppe</a> located at 8415 3rd Ave, Brooklyn, NY 11209.  Adult classes are Tuesdays, 7:00pm-8:00pm. Kids classes are Saturdays 11:00am-12:00pm.  To sign up, please call (718) 833-5115.</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ class Home extends Component {
 
         <div style={{ position: 'relative' }}>
           <div style={{ color: '#ddd', backgroundColor: '#282E34', textAlign: 'center', padding: '50px 80px' }}>
-            <p>I also take orders for unique hats, scarves, shawls, baby blankets and other items, made per your custom specifications.  To place an order, please email me at EMAIL ADDRESS</p>
+            <p>I also take orders for unique hats, scarves, shawls, baby blankets, and other items, made per your custom specifications.  To place an order, please email me at nattimmer@gmail.com</p>
           </div>
         </div>
 
