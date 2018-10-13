@@ -46,7 +46,7 @@ class Home extends Component {
 
         <div style={{ position: 'relative' }}>
           <div style={{ color: '#ddd', backgroundColor: '#282E34', textAlign: 'center', padding: '50px 80px' }}>
-            <p>I also take orders for unique hats, scarfs, shoals, and other items, made per your custom specifications.  To place an order, please email me at EMAIL ADDRESS</p>
+            <p>I also take orders for unique hats, scarfs, shawls, baby blankets and other items, made per your custom specifications.  To place an order, please email me at EMAIL ADDRESS</p>
           </div>
         </div>
 
