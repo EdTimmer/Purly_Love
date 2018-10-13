@@ -10,7 +10,7 @@ class Home extends Component {
       <div>
         <div className="bgimg-1">
           <div className="caption">
-            <span className="borderTwo header" style={{ fontSize: '40px', letterSpacing: 0 }}>Purly Love</span>
+            <span className="borderTwo header" style={{ fontSize: '40px', letterSpacing: 0 }}>Purly  Love</span>
           </div>
         </div>
 
@@ -20,10 +20,10 @@ class Home extends Component {
           <div>
             <Link to={`/gallerygrid`}>GALLERY</Link>
           </div>
-          <br />
+          {/*<br />
           <div>
             <img src={cat} width={100} />
-          </div>
+          </div>*/}
         </div>
 
         <div className="bgimg-2">

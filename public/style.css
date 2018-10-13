@@ -23,9 +23,10 @@ body, html {
 }
 .bgimg-1 {
   background-image: url("./images/img3.jpg");
-  /* min-height: 900px; */
+  /* height: 900px; */
   /* min-height: 100%; */
   height: 100vh;
+  max-width: 100wh;
 }
 
 .bgimg-2 {
@@ -34,7 +35,7 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("./images/img5.jpg");
+  background-image: url("./images/img8.jpg");
   min-height: 400px;
 }
 
@@ -58,7 +59,7 @@ body, html {
 .caption span.borderTwo {
   background-color: #111;
   color: #fff;
-  padding: 10px;
+  padding: 10px 40px 10px 40px;
   font-size: 25px;
   letter-spacing: 10px;
 }
