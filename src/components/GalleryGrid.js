@@ -60,7 +60,7 @@ class GalleryGrid extends Component {
               </div>
               <div className="column" style={{ width: '80%', }} />
               <div className="column" style={{ width: '10%' }}>
-                <Link to={"/"}><img src={homewhite} width={35} /></Link>
+                <Link to={"/"}><img src={homewhite} width={40} /></Link>
               </div>
 
             </div>

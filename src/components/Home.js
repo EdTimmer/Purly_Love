@@ -18,7 +18,10 @@ class Home extends Component {
           <h3 style={{ textAlign: 'center' }}>About</h3>
           <p>My name is Natalya Timmer.  I knit and teach others how to knit.</p>
           <div>
-            <Link to={`/gallery`}>GALLERY</Link>
+            <Link to={`/gallery`} style={{ padding: '10px' }}>ALL ITEMS GALLERY</Link>
+            <Link to={`/hats`} style={{ padding: '10px' }}>HATS</Link>
+            <Link to={`/scarves`} style={{ padding: '10px' }}>SCARVES & SHAWLS</Link>
+            <Link to={`/sweaters`} style={{ padding: '10px' }}>SWEATERS</Link>
           </div>
           {/*<br />
           <div>
@@ -46,7 +49,7 @@ class Home extends Component {
 
         <div style={{ position: 'relative' }}>
           <div style={{ color: '#ddd', backgroundColor: '#282E34', textAlign: 'center', padding: '50px 80px' }}>
-            <p>I also take orders for unique hats, scarfs, shawls, baby blankets and other items, made per your custom specifications.  To place an order, please email me at EMAIL ADDRESS</p>
+            <p>I also take orders for unique hats, scarves, shawls, baby blankets and other items, made per your custom specifications.  To place an order, please email me at EMAIL ADDRESS</p>
           </div>
         </div>
 
