@@ -18,7 +18,7 @@ class Home extends Component {
           <h3 style={{ textAlign: 'center' }}>About</h3>
           <p>My name is Natalya Timmer.  I knit and teach others how to knit.</p>
           <div>
-            <Link to={`/gallerygrid`}>GALLERY</Link>
+            <Link to={`/gallery`}>GALLERY</Link>
           </div>
           {/*<br />
           <div>

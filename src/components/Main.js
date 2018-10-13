@@ -11,7 +11,7 @@ class Main extends Component {
       <HashRouter>
         <div className="container-fluid">
           <Switch>
-            <Route exact path="/gallerygrid" component={GalleryGrid} />
+            <Route exact path="/gallery" component={GalleryGrid} />
             {/*<Route exact path="/gallery" component={ Gallery } />*/}
             <Route exact path="/" component={Home} />
           </Switch>
