@@ -43,6 +43,7 @@ import yarn from "../images/yarn.ico";
 import cat from "../images/cat.png";
 import homegreen from "../images/homegreen.png";
 import homeblue from "../images/homeblue.png";
+import homewhite from "../images/homewhite.png";
 
 class GalleryGrid extends Component {
   componentDidMount() {
@@ -59,7 +60,7 @@ class GalleryGrid extends Component {
               </div>
               <div className="column" style={{ width: '80%', }} />
               <div className="column" style={{ width: '10%' }}>
-                <Link to={"/"}><img src={homeblue} width={40} /></Link>
+                <Link to={"/"}><img src={homewhite} width={35} /></Link>
               </div>
 
             </div>

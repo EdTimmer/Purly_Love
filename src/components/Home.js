@@ -34,7 +34,7 @@ class Home extends Component {
 
         <div style={{ position: 'relative' }}>
           <div style={{ color: '#ddd', backgroundColor: '#282E34', textAlign: 'center', padding: '50px 80px' }}>
-            <p>I give live classes at Bookmark shop located at ADDRESS.  Class times are TIMES.  To sign up, please call PHONE NUMBER.</p>
+            <p>I give live classes at <a href="https://www.bookmarkshoppe.com/" rel="noopener noreferrer" target="_blank" style={{ color: 'white' }}>Bookmark Shoppe</a> located at 8415 3rd Ave, Brooklyn, NY 11209.  Class times are TIMES.  To sign up, please call PHONE NUMBER.</p>
           </div>
         </div>
 
