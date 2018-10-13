@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import yarn from "./yarn.ico";
+import yarn from "../images/yarn.ico";
+import cat from "../images/cat.png";
 
 class Home extends Component {
   render() {
@@ -9,7 +10,7 @@ class Home extends Component {
       <div>
         <div className="bgimg-1">
           <div className="caption">
-            <span className="border header" style={{ fontSize: '40px' }}>Purly Love</span>
+            <span className="borderTwo header" style={{ fontSize: '40px', letterSpacing: 0 }}>Purly Love</span>
           </div>
         </div>
 
@@ -17,11 +18,11 @@ class Home extends Component {
           <h3 style={{ textAlign: 'center' }}>About</h3>
           <p>My name is Natalya Timmer.  I knit and teach others how to knit.</p>
           <div>
-            <Link to={`/gallerygrid`}>Gallery of things I made</Link>
+            <Link to={`/gallerygrid`}>GALLERY</Link>
           </div>
           <br />
           <div>
-            <img src={yarn} width={50} />
+            <img src={cat} width={100} />
           </div>
         </div>
 
