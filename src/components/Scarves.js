@@ -11,6 +11,7 @@ import w16 from "../images/w16.jpg";
 import w17 from "../images/w17.jpg";
 import w22 from "../images/w22.jpg";
 import w24 from "../images/w24.jpg";
+import w25 from "../images/w25.jpg";
 import w26 from "../images/w26.jpg";
 import w31 from "../images/w31.jpg";
 
@@ -56,6 +57,7 @@ class Scarves extends Component {
             <img src={w17} alt="three" style={{ width: '100%' }} />
             <img src={w22} alt="four" style={{ width: '100%' }} />
             <img src={w24} alt="one" style={{ width: '100%' }} />
+            <img src={w25} alt="two" style={{ width: '100%' }} />
             <img src={w26} alt="two" style={{ width: '100%' }} />
             <img src={w31} alt="two" style={{ width: '100%' }} />
           </div>

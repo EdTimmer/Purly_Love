@@ -70,6 +70,16 @@ class Nav extends Component {
             <a href="/#/sweaters">Sweaters</a>
           </ListItemText>
         </List>
+        <List>
+          <ListItemText>
+            <a href="/#/toys">Toys</a>
+          </ListItemText>
+        </List>
+        <List>
+          <ListItemText>
+            <a href="/#/blankets">Blankets</a>
+          </ListItemText>
+        </List>
       </div>
     )
     return (

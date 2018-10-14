@@ -22,6 +22,8 @@ class Home extends Component {
             <Link to={`/hats`} style={{ padding: '10px' }}>HATS</Link>
             <Link to={`/scarves`} style={{ padding: '10px' }}>SCARVES & SHAWLS</Link>
             <Link to={`/sweaters`} style={{ padding: '10px' }}>SWEATERS</Link>
+            <Link to={`/toys`} style={{ padding: '10px' }}>TOYS</Link>
+            <Link to={`/blankets`} style={{ padding: '10px' }}>BLANKETS</Link>
           </div>
           {/*<br />
           <div>
