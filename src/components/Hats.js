@@ -34,8 +34,8 @@ class Hats extends Component {
               <div className="column header" style={{ width: '10%', fontSize: '40px', letterSpacing: 0, textAlign: 'left', paddingLeft: '40px' }}>
                 <span>Hats</span>
               </div>
-              <div className="column" style={{ width: '80%', }} />
-              <div className="column" style={{ width: '10%' }}>
+              <div className="column" style={{ width: '82%', }} />
+              <div className="column" style={{ width: '8%' }}>
                 <Nav />
               </div>
 

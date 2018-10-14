@@ -34,8 +34,8 @@ class Scarves extends Component {
               <div className="column header" style={{ width: '20%', fontSize: '40px', letterSpacing: 0, textAlign: 'left', paddingLeft: '40px' }}>
                 <span>Scarves & Shawls</span>
               </div>
-              <div className="column" style={{ width: '70%', }} />
-              <div className="column" style={{ width: '10%' }}>
+              <div className="column" style={{ width: '72%', }} />
+              <div className="column" style={{ width: '8%' }}>
                 <Nav />
               </div>
 

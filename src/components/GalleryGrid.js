@@ -64,8 +64,8 @@ class GalleryGrid extends Component {
               <div className="column header" style={{ width: '30%', fontSize: '40px', letterSpacing: 0, textAlign: 'left', paddingLeft: '40px' }}>
                 <span>All Items Gallery</span>
               </div>
-              <div className="column" style={{ width: '60%', }} />
-              <div className="column" style={{ width: '10%', textAlign: 'right' }}>
+              <div className="column" style={{ width: '62%', }} />
+              <div className="column" style={{ width: '8%' }}>
                 <Nav />
               </div>
             </div>
