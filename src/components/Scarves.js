@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import Nav from './Nav';
 
 import w01 from "../images/w01.jpg";
 import w02 from "../images/w02.jpg";
@@ -30,13 +30,13 @@ class Scarves extends Component {
       <div>
         <div>
           <div>
-            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px', textAlign: 'center' }}>
-              <div className="column header" style={{ width: '20%', fontSize: '40px', letterSpacing: 0 }}>
+            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px', }}>
+              <div className="column header" style={{ width: '20%', fontSize: '40px', letterSpacing: 0, textAlign: 'left', paddingLeft: '40px' }}>
                 <span>Scarves & Shawls</span>
               </div>
               <div className="column" style={{ width: '70%', }} />
               <div className="column" style={{ width: '10%' }}>
-                <Link to={"/"}><img src={homewhite} width={40} /></Link>
+                <Nav />
               </div>
 
             </div>

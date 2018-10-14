@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItemText, Divider, ListItem } from '@material-ui/core';
+import Menu from '@material-ui/icons/Menu';
+import Nav from './Nav';
+
 import w01 from "../images/w01.jpg";
 import w02 from "../images/w02.jpg";
 import w03 from "../images/w03.jpg";
@@ -54,15 +60,14 @@ class GalleryGrid extends Component {
       <div>
         <div>
           <div>
-            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px', textAlign: 'center' }}>
-              <div className="column header" style={{ width: '10%', fontSize: '40px', letterSpacing: 0 }}>
-                <span>Gallery</span>
+            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px' }}>
+              <div className="column header" style={{ width: '30%', fontSize: '40px', letterSpacing: 0, textAlign: 'left', paddingLeft: '40px' }}>
+                <span>All Items Gallery</span>
               </div>
-              <div className="column" style={{ width: '80%', }} />
-              <div className="column" style={{ width: '10%' }}>
-                <Link to={"/"}><img src={homewhite} width={40} /></Link>
+              <div className="column" style={{ width: '60%', }} />
+              <div className="column" style={{ width: '10%', textAlign: 'right' }}>
+                <Nav />
               </div>
-
             </div>
           </div>
         </div>

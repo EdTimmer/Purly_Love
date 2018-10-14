@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import Nav from './Nav';
+import Nav from './Nav';
 //3, 4, 5, 10, 11, 25, 35, 36
 
 import w03 from "../images/w03.jpg";
@@ -25,16 +25,16 @@ class Sweaters extends Component {
   }
   render() {
     return (
-      <div>        
+      <div>
         <div>
           <div>
-            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px', textAlign: 'center' }}>
-              <div className="column header" style={{ width: '10%', fontSize: '40px', letterSpacing: 0 }}>
+            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px', }}>
+              <div className="column header" style={{ width: '10%', fontSize: '40px', letterSpacing: 0, textAlign: 'left', paddingLeft: '40px' }}>
                 <span>Sweaters</span>
               </div>
               <div className="column" style={{ width: '80%', }} />
               <div className="column" style={{ width: '10%' }}>
-                <Link to={"/"}><img src={homewhite} width={40} /></Link>
+                <Nav />
               </div>
 
             </div>

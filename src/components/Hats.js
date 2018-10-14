@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 //7, 13, 15, 23, 32, 33, 34, 35, 36
 
+import Nav from './Nav';
+
 import w07 from "../images/w07.jpg";
 import w13 from "../images/w13.jpg";
 import w15 from "../images/w15.jpg";
@@ -28,13 +30,13 @@ class Hats extends Component {
       <div>
         <div>
           <div>
-            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px', textAlign: 'center' }}>
-              <div className="column header" style={{ width: '10%', fontSize: '40px', letterSpacing: 0 }}>
+            <div className="row" style={{ color: '#fff', backgroundColor: '#282E34', padding: '30px 20px', letterSpacing: '10px', fontSize: '25px', }}>
+              <div className="column header" style={{ width: '10%', fontSize: '40px', letterSpacing: 0, textAlign: 'left', paddingLeft: '40px' }}>
                 <span>Hats</span>
               </div>
               <div className="column" style={{ width: '80%', }} />
               <div className="column" style={{ width: '10%' }}>
-                <Link to={"/"}><img src={homewhite} width={40} /></Link>
+                <Nav />
               </div>
 
             </div>
