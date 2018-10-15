@@ -10,7 +10,7 @@ class Home extends Component {
       <div>
         <div className="bgimg-1">
           <div className="caption">
-            <span className="borderTwo header" style={{ fontSize: '40px', letterSpacing: 0 }}>Purly  Love</span>
+            <span className="borderTwo header">Purly  Love</span>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ class Home extends Component {
 
         <div style={{ position: 'relative' }}>
           <div style={{ color: '#ddd', backgroundColor: '#282E34', textAlign: 'center', padding: '50px 80px' }}>
-            <p>I give live classes at <a href="https://www.bookmarkshoppe.com/" rel="noopener noreferrer" target="_blank" style={{ color: 'white' }}>Bookmark Shoppe</a> located at 8415 3rd Ave, Brooklyn, NY 11209.  Adult classes are Tuesdays, 7:00pm-8:00pm. Kids classes are Saturdays 11:00am-12:00pm.  To sign up, please call (718) 833-5115.</p>
+            <p>I give live classes at <a href="https://www.bookmarkshoppe.com/" rel="noopener noreferrer" target="_blank" style={{ color: 'white' }}>Bookmark Shoppe</a> located at 8415 3rd Ave, Brooklyn, NY 11209.  Adult classes are Tuesdays, 7:00pm-8:00pm. Kids classes are Saturdays, 11:00am-12:00pm.  To sign up, please call (718) 833-5115.</p>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ class Home extends Component {
 
         <div className="bgimg-1">
           <div className="caption">
-            <span className="border">Thank you for visiting!</span>
+            <span className="border header">Thank you for visiting!</span>
           </div>
         </div>
       </div>
