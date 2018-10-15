@@ -10,7 +10,7 @@ class Home extends Component {
       <div>
         <div className="bgimg-1">
           <div className="caption">
-            <span className="borderTwo header">Purly  Love</span>
+            <span className="borderTwo header" style={{ fontSize: '40px', letterSpacing: '0' }}>Purly  Love</span>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ class Home extends Component {
 
         <div className="bgimg-1">
           <div className="caption">
-            <span className="border header">Thank you for visiting!</span>
+            <span className="border header" style={{ fontSize: '40px', letterSpacing: '0' }}>Thank you for visiting!</span>
           </div>
         </div>
       </div>
